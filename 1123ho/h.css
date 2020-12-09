@@ -1,0 +1,311 @@
+/* 레이아웃 */
+header{
+    height: 100px;
+}
+.inner-container1{
+    position: relative;
+    margin: 0px auto;
+    width: 1300px;
+}
+#logo{
+    position: absolute;
+    left:0px;
+    top: 35px;
+    font-size: 30px;
+    font-weight: bold;
+}
+nav{
+    position: absolute;
+    left: 50%;
+    margin-left: -280px;
+    top: 35px;
+}
+header .btn{
+    position: absolute;
+    right: 0px;
+    top: 25px;
+    border: 2px solid rgb(212, 208, 208);
+    padding: 5px 40px;
+    font-size: 13px;
+    color: rgb(212, 208, 208);
+}
+nav a{
+    margin: auto 20px;
+    color: black;
+}
+
+
+
+/* 메인 */
+iframe{
+    width: 1440px;
+    height: 810px;
+}
+.큰제목{
+    font-size: 25px;
+    font-weight: bold;
+    margin-bottom: 30px;
+    text-align: center;
+
+}
+.부제목{
+    text-align: center;
+    margin-bottom: 90px;
+}
+.inner-container2{
+    width: 900px;
+    margin: 0 auto;
+    position: relative;
+    top: 50px;
+}
+#bluebox1{
+    background-color: blue;
+    padding: 30px 40px;
+    padding-top: 10px;
+    padding-left: 10px;
+    color: white;
+    width: 250px;
+    height: 140px;
+    top: 100px;
+    left: 0px;
+}
+#bluebox2{
+    background-color: lightblue;
+    padding: 30px 40px;
+    padding-top: 10px;
+    padding-left: 10px;
+    color: white;
+    width: 250px;
+    height: 140px;
+}
+.bluebox3{
+    background-color: #4458b9;
+    padding: 30px 40px;
+    padding-top: 10px;
+    padding-left: 10px;
+    color: white;
+    width: 250px;
+    height: 140px;
+}
+.box1{
+    display: flex;
+}
+.txt1{
+    font-style: border;
+}
+.txt2{
+    font-style: Thin;
+    font-size: 13px;
+}
+.txt3{
+    font-style: Thin; 
+    position: absolute;
+    bottom: 10px;
+  
+}
+.news{
+    width: 900px;
+    margin: 0px auto;
+}
+.news1{
+    position: relative;
+    margin-top: 100px;
+    padding-bottom: 9px;
+    padding-top: 9px;
+    border-bottom: 0.6px solid rgb(185, 182, 182);
+}
+.news2{
+    position: relative;
+    padding-bottom: 9px;
+    padding-top: 9px;
+    border-bottom: 0.6px solid rgb(185, 182, 182);
+}
+.news3{
+    position: relative;
+    padding-bottom: 9px;
+    padding-top: 9px;
+    border-bottom: 0.6px solid rgb(185, 182, 182);
+}
+.news4{
+    position: relative;
+    padding-bottom: 9px;
+    padding-top: 9px;
+    border-bottom: 0.6px solid rgb(185, 182, 182);
+}
+.news5{
+    position: relative;
+    padding-bottom: 9px;
+    padding-top: 9px;
+    border-bottom: 0.6px solid rgb(185, 182, 182);
+}
+.news6{
+    position: relative;
+    padding-bottom: 9px;
+    padding-top: 9px;
+    border-bottom: 0.6px solid rgb(185, 182, 182);
+}
+.gray{
+    color: rgb(182, 181, 181);
+    float: left;
+    padding-right: 10px;
+    font-size: 12px;
+}
+.date{
+    color: gray;
+    float: right;
+    font-size: 12px;
+}
+.main1{
+    color: black;
+    font-size: 12px;
+}
+.last-box{
+    height: 1100px;
+    background-color: #F8F8F8;
+    margin-top: 60px;
+}
+.inner-container3{
+    width: 1035px;
+    margin: 0 auto;
+    position: relative;
+}
+.큰제목1{
+    position: relative;
+    top: 100px;
+    font-size: 25px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    text-align: center;
+}
+.부제목1{
+    position: relative;
+    top: 100px;
+    text-align: center;
+    margin-bottom: 90px;
+}
+.gallery1{
+    width: 325px;
+    height: 350px;
+    background-color: white;
+    margin-top: 10%;
+    margin-right: 10px;
+    margin-bottom: 0px;
+}
+.gallery2{
+    width: 325px;
+    height: 350px;
+    background-color: white;
+    margin-top: 10%;
+    margin-right: 10px;
+    margin-left: 10px;
+    margin-bottom: 0px;
+}
+.gallery3{
+    width: 325px;
+    height: 350px;
+    background-color: white;
+    margin-top: 10%;
+    margin-right: 10px;
+    margin-left: 10px;
+    margin-bottom: 0px;
+}
+.gallery4{
+    width: 325px;
+    height: 350px;
+    background-color: white;
+    margin-top: 5%;
+    margin-right: 10px;
+    margin-bottom: 0px;
+}
+.gallery5{
+    width: 325px;
+    height: 350px;
+    background-color: white;
+    margin-top: 5%;
+    margin-right: 10px;
+    margin-left: 10px;
+    margin-bottom: 0px;
+}
+.gallery6{
+    width: 325px;
+    height: 350px;
+    background-color: white;
+    margin-top: 5%;
+    margin-right: 10px;
+    margin-left: 10px;
+    margin-bottom: 0px;
+}
+.gallery{
+    display: flex;
+    position: relative;
+}
+.gallery0{
+    display: flex;
+    position: relative;
+}
+.blog{
+    padding: 10px 12px;
+    padding-bottom: 0px;
+}
+.blog1{
+    padding: 0px 12px;
+    padding-bottom: 0px;
+    font-size: 12px;
+    color: gray;
+}
+.date1{
+    color: gray;
+    position: absolute;
+    bottom: 0px;
+    padding: 10px 20px;
+    font-size: 8px;
+}
+
+
+/* 푸터 */
+.inner-container{
+    width: 900px;
+    height: 250px;
+    margin: 0 auto;
+    border-bottom: 0.2px solid rgb(234, 240, 255);
+}
+footer{
+    background-color: #031252;
+    padding: 30px 0px;
+    color: white;
+    height: 360px;
+    position: relative;
+    top: 0px;
+}
+.box{
+    float: left;
+    margin:0px 40px;
+    color: white;
+}
+footer li a{
+    font-size: 10px;
+    color: white;
+}
+footer ul{
+    margin-top: 10px;
+}
+.icon{
+    position: absolute;
+    left: 43%;
+    padding: 20px;
+    display: flex;
+}
+.icon2{
+    padding: 0px 35px;
+}
+.last{
+    display: flex;
+    color: rgb(224, 222, 222);
+    font-size: 10px;
+    position: absolute;
+    left: 370px;
+    bottom: 40px;
+}
+.last div{
+    padding: 0px 15px;
+}

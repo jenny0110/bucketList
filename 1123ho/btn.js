@@ -23,4 +23,15 @@ window.onload = function(){
     // document.getElementById('x-mas').addEventListener('click',function(){
     //     get_arguments('bluebox')
     // })
+
+    document.querySelector('.slide-btn1').addEventListener('click', function(){
+            document.querySelector('.slide').style.transform = 'translate(-0vw)';
+        })
+    document.querySelector('.slide-btn2').addEventListener('click', function(){
+        document.querySelector('.slide').style.transform = 'translate(-100vw)';
+    });
+    document.querySelector('.slide-btn3').addEventListener('click', function(){
+        document.querySelector('.slide').style.transform = 'translate(-200vw)';
+    });
+    ;
 }
